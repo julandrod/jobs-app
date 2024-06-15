@@ -23,7 +23,7 @@ cloudinary.config({
 // API config
 const app = express();
 const port = process.env.PORT || 8080;
-app.use(cors({ origin: process.env.LOCAL_URL, credentials: true }));
+app.use(cors({ origin: process.env.FRONT_URL, credentials: true }));
 app.use(express.json());
 app.use(morgan("dev", { skip: (req, res) => process.env.NODE_ENV === "test" }));
 app.use(mongoSanitize());
