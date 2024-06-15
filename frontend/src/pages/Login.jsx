@@ -19,7 +19,7 @@ const Login = () => {
 
   return (
     <section className="min-h-screen grid items-center">
-      {userInfo && <Navigate to="/" replace />}
+      {userInfo && <Navigate to="/dashboard" replace />}
       <Formik
         initialValues={{
           email: "",
