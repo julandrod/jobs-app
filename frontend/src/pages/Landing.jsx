@@ -10,7 +10,7 @@ const Landing = () => {
           <h1 className="font-bold text-6xl mb-6">
             Job <span className="text-primary-500">Finding</span> App
           </h1>
-          <p className="leading-8 text-secondaryTextColor mb-6 max-w-4xl">Find your dream job with us... add more text</p>
+          <p className="leading-8 text-secondaryTextColor mb-6 max-w-4xl">Find your dream job ...</p>
           <Link to="/register" className="btn mr-6 py-3 px-4">Register</Link>
           <Link to="/login" className="btn py-3 px-4">Login</Link>
         </div> 
