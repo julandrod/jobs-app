@@ -6,7 +6,6 @@ import {
 } from "../services/user.services.js";
 
 const getCurrentUser = tryCatchWrapper(async (req, res, next) => {
-  console.log(req.user);
   const { userId } = req.user;
 
   const currentUser = await findCurrentUser({ userId });
